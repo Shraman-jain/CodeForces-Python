@@ -1,6 +1,6 @@
 n=int(input())
 lst=list(map(int,input().split()))
-freq={5:0,0:0}
+freq={0:0,5:0}
 for i in lst:
     freq[i]+=1
 

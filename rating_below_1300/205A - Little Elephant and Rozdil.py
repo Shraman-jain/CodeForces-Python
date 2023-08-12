@@ -1,6 +1,5 @@
 n=int(input())
 lst=list(map(int,input().split()))
-
 min_city=min(lst)
 town_no=0
 flag=False

@@ -2,7 +2,7 @@ n=int(input())
 lst=list(map(int,input().split()))
 
 first_ind,second_ind=0,0
-ans=10005
+ans=100005
 for i in range(len(lst)-1):
     if abs(lst[i]-lst[i+1])<ans:
         first_ind=i+1
